@@ -1,0 +1,21 @@
+<html>
+    <body bgcolor=#00B0E2>
+
+        <center>
+
+        <h1> Welcome to Iris Flower Classification! </h1><br>
+
+        <form method="POST", action="{{url_for('prediction')}}">
+           <b> Sepal Length :  <input type="text", name='a', placeholder="1.0"> <br><br>
+            Sepal Width :  <input type="text", name='b', placeholder="1.0"> <br><br>
+            Petal Length :  <input type="text", name='c', placeholder="1.0"> <br><br>
+            Petal Width : <input type="text", name='d', placeholder="1.0"> <br><br><br></b>
+            <input type="submit" , value='Predict' >
+        </form>
+
+        <img src='static\flower1.jpg' alt="flower">
+
+        </center>
+
+    </body>
+</html>
